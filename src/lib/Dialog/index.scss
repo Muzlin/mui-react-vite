@@ -1,0 +1,27 @@
+@import '../variable';
+.mui-dialog {
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &-mask {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: fade-out($color: #000000, $amount: 0.7);
+  }
+  &-header {
+  }
+  &-main {
+  }
+  &-footer {
+  }
+  &-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
