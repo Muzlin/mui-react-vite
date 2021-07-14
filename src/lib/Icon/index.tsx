@@ -8,7 +8,7 @@ type TIconProps = {
 
 const Icon: React.FC<TIconProps> = ({ name, className, ...rest }) => {
   return (
-    <svg className={classnames('icon', className)} {...rest}>
+    <svg className={classnames('mui-icon', className)} {...rest}>
       <use xlinkHref={`#icon-${name}`}></use>
     </svg>
   )
