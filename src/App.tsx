@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Icon name="wechat" onClick={() => console.log()} />
-      <DialogExample />
+      <DialogExample/>
     </div>
   )
 }
